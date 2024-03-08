@@ -82,7 +82,7 @@ const Navbar = () => {
                 <li className="">
                   <a href="/">
                     <img
-                      src="/public/assets/Ig.svg"
+                      src="/assets/Ig.svg"
                       alt="instagram"
                       className="w-8 h-8 object-contain"
                     />
@@ -92,7 +92,7 @@ const Navbar = () => {
                   <a href="#project">
                     {" "}
                     <img
-                      src="/public/assets/github.svg"
+                      src="/assets/github.svg"
                       alt="github"
                       className="w-8 h-8 object-contain"
                     />
@@ -102,7 +102,7 @@ const Navbar = () => {
                   <a href="#contact">
                     {" "}
                     <img
-                      src="/public/assets/x.svg"
+                      src="/assets/x.svg"
                       alt="X"
                       className="w-8 h-6 object-contain"
                     />
@@ -112,7 +112,7 @@ const Navbar = () => {
                   <a href="http://">
                     {" "}
                     <img
-                      src="/public/assets/linkedIn.svg"
+                      src="/assets/linkedIn.svg"
                       alt="LinkedIn"
                       className="w-8 h-6 object-contain"
                     />

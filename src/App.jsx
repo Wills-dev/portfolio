@@ -1,6 +1,8 @@
 import "./App.css";
+import { AboutMe } from "./components/AboutMe";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <div className="bg-scroll relative w-full h-full bg-[#3c086380] ">
           <Navbar />
           <Hero />
+          <AboutMe />
+          <Skills />
         </div>
       </main>
     </>
