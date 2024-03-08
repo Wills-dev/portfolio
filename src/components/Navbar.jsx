@@ -4,7 +4,7 @@ const Navbar = () => {
   const [openSidebar, setOpenSidebar] = useState(false);
 
   return (
-    <div className="w-full padding-x py-6 flex-center-between text-tert-colr relative">
+    <div className="w-full padding-x py-6 flex-center-between text-tert-colr relative bg-scroll">
       <div className="">
         <a href="/" className="text-2xl font-extrabold font-fira">
           Wills

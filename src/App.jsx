@@ -6,15 +6,18 @@ function App() {
   return (
     <>
       <main
-        className="w-full h-full m-0"
+        className="w-full h-full m-0 relative"
         style={{
           backgroundImage: "url('/assets/background.svg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
+          backgroundAttachment: "fixed",
         }}
       >
-        <Navbar />
-        <Hero />
+        <div className="bg-scroll relative w-full h-full bg-[#3c086380] ">
+          <Navbar />
+          <Hero />
+        </div>
       </main>
     </>
   );

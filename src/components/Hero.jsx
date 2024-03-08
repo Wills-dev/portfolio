@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex justify-center items-center px-16 py-12 w-full b max-md:px-5 max-md:max-w-full relative">
+    <div className="flex justify-center items-center px-16 py-12 w-full b max-md:px-5 max-md:max-w-full relative bg-scroll">
       <div className="flex flex-col w-full max-w-[600px] max-md:max-w-full">
         <h1 className=" text-7xl font-bold text-center text-primary-color max-md:text-4xl">
           Hey I'm <br />
