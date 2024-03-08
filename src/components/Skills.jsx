@@ -5,8 +5,14 @@ const Skills = () => {
   return (
     <section className="py-16 max-md:py-10 padding-x bg-primary-color">
       <div className="flex-center gap-6">
-        <h1 className="text-5xl font-medium text-white">Skills</h1>
-        <img src="/assets/stroke.svg" alt="stroke" />
+        <h1 className="text-5xl font-medium text-white max-md:text-2xl">
+          Skills
+        </h1>
+        <img
+          src="/assets/stroke.svg"
+          alt="stroke"
+          className="max-md:w-[120px] max-md:h-[10px]"
+        />
       </div>
       <div className="flex-center gap-20 py-8 max-lg:flex-col">
         <div className="flex-cols justify-center gap-16 max-md:gap-10">

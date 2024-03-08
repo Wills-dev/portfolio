@@ -21,7 +21,13 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <li className="font-semibold hover:text-primary-color transition-all">
-          <a href="http://">My Resume</a>
+          <a
+            href="https://drive.google.com/file/d/10v6lV2MrOvbd7OXAYx3VoZCvMoBBD4iX/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Resume
+          </a>
         </li>
       </ul>
       {!openSidebar && (
@@ -44,7 +50,7 @@ const Navbar = () => {
         </div>
       )}
       {openSidebar && (
-        <div className="fixed w-full h-screen top-0 right-0 bg-h-transparent block sm:hidden">
+        <div className="fixed w-full h-screen top-0 right-0 bg-h-transparent block sm:hidden z-20">
           <div className=" w-[80%] h-full bg-primary-color padding-x flex-cols">
             <div className="flex justify-end sm:hidden  py-6">
               <svg
@@ -69,18 +75,32 @@ const Navbar = () => {
                   <a href="/">Home</a>
                 </li>
                 <li className="font-semibold hover:text-primary-color transition-all">
-                  <a href="#project">Project</a>
+                  <a href="#project" onClick={(e) => setOpenSidebar(false)}>
+                    Project
+                  </a>
                 </li>
                 <li className="font-semibold hover:text-primary-color transition-all">
-                  <a href="#contact">Contact</a>
+                  <a href="#contact" onClick={(e) => setOpenSidebar(false)}>
+                    Contact
+                  </a>
                 </li>
                 <li className="font-semibold hover:text-primary-color transition-all">
-                  <a href="http://">My Resume</a>
+                  <a
+                    href="https://drive.google.com/file/d/10v6lV2MrOvbd7OXAYx3VoZCvMoBBD4iX/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    My Resume
+                  </a>
                 </li>
               </ul>
               <ul className="flex-cols gap-8 ">
                 <li className="">
-                  <a href="/">
+                  <a
+                    href="https://www.instagram.com/willss_z?igsh=cnlrOHNyMWR0YzVi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       src="/assets/Ig.svg"
                       alt="instagram"
@@ -89,7 +109,11 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="">
-                  <a href="#project">
+                  <a
+                    href="https://github.com/Wills-dev"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     <img
                       src="/assets/github.svg"
@@ -99,7 +123,11 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="">
-                  <a href="#contact">
+                  <a
+                    href="https://twitter.com/Willsssss_"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     <img
                       src="/assets/x.svg"
@@ -109,7 +137,11 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="">
-                  <a href="http://">
+                  <a
+                    href="https://www.linkedin.com/in/victor-ejiogu-4b594916a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     <img
                       src="/assets/linkedIn.svg"

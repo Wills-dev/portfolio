@@ -1,8 +1,12 @@
 import "./App.css";
 import { AboutMe } from "./components/AboutMe";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import PersonalProjects from "./components/PersonalProjects";
 import Skills from "./components/Skills";
+import TeamProjects from "./components/TeamProjects";
 
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
           <Hero />
           <AboutMe />
           <Skills />
+          <TeamProjects />
+          <PersonalProjects />
+          <Contact />
+          <Footer />
         </div>
       </main>
     </>
