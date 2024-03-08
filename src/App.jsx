@@ -23,7 +23,7 @@ function App() {
         <div className="bg-scroll relative w-full h-full bg-[#3c086380] ">
           <Navbar />
           <Hero />
-          <AboutMe />
+          {/* <AboutMe /> */}
           <Skills />
           <TeamProjects />
           <PersonalProjects />

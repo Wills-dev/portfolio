@@ -75,10 +75,10 @@ const Footer = () => {
         >
           ejioguvictor6@gmail
         </a>
-        <div className="flex-center gap-2 max-sm:flex-col">
+        {/* <div className="flex-center gap-2 max-sm:flex-col">
           <p>+2347069361700</p>
           <p>+2347083701256</p>
-        </div>
+        </div> */}
       </div>
     </section>
   );
