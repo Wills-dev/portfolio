@@ -33,7 +33,7 @@ export const AboutMe = () => {
       </div>
       <div className="flex-1 flex-center justify-center max-lg:hidden">
         <img
-          src="/public/assets/avatar.png"
+          src="/public/assets/avatar.jpeg"
           alt="avatar"
           className="max-h-[400px]"
         />
