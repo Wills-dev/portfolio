@@ -1,5 +1,3 @@
-import React from "react";
-
 export const AboutMe = () => {
   return (
     <div className="padding-x py-16 max-md:py-10 flex-center-between gap-10">
@@ -25,10 +23,6 @@ export const AboutMe = () => {
           problem-solving and am perpetually working to improve my skills one
           challenge at a time. <br /> <br /> Outside of coding, you'll often
           find me on the football field or immersed in video games.
-          {/* I value personal growth and enjoy sharing
-          helpful resources with fellow developers. Whether I'm debugging code
-          or enjoying leisure activities, I approach each endeavor with
-          enthusiasm and dedication. */}
         </p>
       </div>
       <div className="flex-1 flex-center justify-center max-lg:hidden">

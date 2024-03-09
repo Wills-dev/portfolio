@@ -38,7 +38,7 @@ export const projects = [
   {
     projectTitle: "Emilist",
     description:
-      "A  web application where artisans, handymen, and experts seamlessly find projects and are closely monitored until completion and they get paid.",
+      "A platform where artisans, handymen, and experts seamlessly find projects and are closely monitored until completion and they get paid.",
     stacks: [
       {
         stack: "Typescript",
@@ -74,7 +74,7 @@ export const projects = [
   {
     projectTitle: "TOFA PAY",
     description:
-      "A  web application payment system used to manage payments of partners to suppliers",
+      "A  platform payment system used to manage payments of partners to suppliers",
     stacks: [
       {
         stack: "Typescript",
@@ -115,7 +115,7 @@ export const projects = [
   {
     projectTitle: "TOFA ADMIN DASHBOARD",
     description:
-      "A  web application used to manage products, sellers and buyers on marketplace platform",
+      "An Admin dashboard used to manage products, sellers and buyers on marketplace platform as well as monitor analytics",
     stacks: [
       {
         stack: "Javascript",
