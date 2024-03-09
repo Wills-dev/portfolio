@@ -321,7 +321,7 @@ export const personalProjects = [
     projectImgUrl: "/assets/drivedeal.png",
     projectSize: "Big",
     status: "Live",
-    projectUrl: "/",
+    projectUrl: "https://drive-deal.vercel.app/",
   },
   {
     projectTitle: " Quote Generator",

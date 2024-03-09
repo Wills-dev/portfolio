@@ -16,7 +16,7 @@ export const AboutMe = () => {
           passion for creating quality applications using JavaScript and its
           frameworks. My journey began in 2019, after completing a zero-mastery
           program in web development. Since then, I've gained hands-on
-          experience by contributing to various projects and acquiring
+          experience by contributing to various projects and acquiring more
           certifications in software and web development. <br /> <br />{" "}
           Proficient in JavaScript, Typescript, Next, React, CSS, HTML, and
           more, I specialize in crafting interactive user interfaces and dynamic

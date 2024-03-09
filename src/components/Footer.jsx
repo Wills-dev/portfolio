@@ -12,12 +12,12 @@ const Footer = () => {
         <ul className="flex-center gap-8 ">
           <li className="">
             <a
-              href="https://www.instagram.com/willss_z?igsh=cnlrOHNyMWR0YzVi"
+              href="mailto:ejioguvictor6@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="/assets/Ig.svg"
+                src="/assets/envelope-icon.svg"
                 alt="instagram"
                 className="w-6 h-6 object-contain"
               />
@@ -68,13 +68,13 @@ const Footer = () => {
         </ul>
       </div>
       <div className="flex-center-between gap-8">
-        <a
+        {/* <a
           href="mailto:ejioguvictor6@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           ejioguvictor6@gmail
-        </a>
+        </a> */}
         {/* <div className="flex-center gap-2 max-sm:flex-col">
           <p>+2347069361700</p>
           <p>+2347083701256</p>
