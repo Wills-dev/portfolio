@@ -270,6 +270,50 @@ export const personalProjects = [
     projectUrl: "https://smart-brief-ai.netlify.app/",
   },
   {
+    projectTitle: "BUZZCONNECT",
+    description:
+      "A real time messaging app designed to connect everyone registered. Right now it's not responsive for mobile users",
+    stacks: [
+      {
+        stack: "React",
+        color: "text-[#0084ff]",
+      },
+      {
+        stack: "Tailwind",
+        color: "text-[#67b4fc]",
+      },
+      {
+        stack: "Zustand",
+        color: "text-[#fc6767]",
+      },
+
+      {
+        stack: "Context API",
+        color: "text-[#67fcd4]",
+      },
+      {
+        stack: "MongoDB",
+        color: "text-[#67fcd4]",
+      },
+      {
+        stack: "Express",
+        color: "text-[#0084ff]",
+      },
+      {
+        stack: "DaisyUI",
+        color: "text-[#fc6767]",
+      },
+      {
+        stack: "Socket.io",
+        color: "text-[#67fcd4]",
+      },
+    ],
+    projectImgUrl: "/assets/buzzconnect.png",
+    projectSize: "Big",
+    status: "Live",
+    projectUrl: "https://buzzconnect.onrender.com/",
+  },
+  {
     projectTitle: "Pearl Assets",
     description:
       "A  fine quality gemstone traders showcasing and selling the best of gemstones all over the world.",
